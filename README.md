@@ -11,7 +11,7 @@ gdb name_of_excutable
 - 3.Use "r" to run the code and the error messages are printed on the screen.
 - 4.Use the debug commands from gdb \[1\] to track the bug.
 
-###### A handy method to print the content of Eigen Vector or Matrix "X" \[2\]:
+**Note:** A handy method to print the content of Eigen Vector or Matrix "X" \[2\]:
 ```
 print *X.data()@Length_X
 ```
