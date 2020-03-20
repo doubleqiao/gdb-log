@@ -1,6 +1,6 @@
 # gdb-log
 ## The process of debugging:
-- 1.Compile the code using the debug mode(to attach debugging symbols) with the command\[1\]:
+- 1.Compile the code using the debug mode(to attach debugging symbols) with the command \[1\]:
 ```
 catkin_make -DCMAKE_BUILD_TYPE=DEBUG
 ```
@@ -18,7 +18,7 @@ print *X.data()@Length_X
 
 
 ## Reference websites:
-\[1\]https://answers.ros.org/question/200155/how-to-debug-executable-built-with-catkin_make-without-roslaunch/
+\[1\] https://answers.ros.org/question/200155/how-to-debug-executable-built-with-catkin_make-without-roslaunch/
 
 \[2\] https://condor.depaul.edu/glancast/373class/docs/gdb.html
 
